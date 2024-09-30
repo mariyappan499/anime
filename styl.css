@@ -1,0 +1,180 @@
+/* .mari{
+    border: solid black 2px; 
+    padding:5px;
+     
+    
+}
+.mari{
+    border: solid black 2px; 
+    padding:5px;
+
+}
+td{
+    border: solid black 2px;
+    padding: 5px;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(12, 12, 12);
+
+    
+} 
+ h2{
+    text-align: center;
+  padding: 2px; 
+  color: rgb(216, 10, 10);
+  font-family: "Handjet", sans-serif;
+  font-size:5rem; 
+}
+body{
+    background-image: url(download\ \(1\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    
+ div{ 
+    border: 1px solid;
+    width: 500px;
+    height: 400px;
+    margin-left: 30%;
+    margin-top: 5%;
+       background: linear-gradient(red,green,blue); 
+       background: repeating-linear-gradient(green 40%, blue);  
+       background: radial-gradient(red,green,cyan); 
+       background: repeating-radial-gradient(red,green,cyan 5%);  
+     border-radius: 50%;  
+} 
+ h2{
+    padding: 50px;
+    font-size: 5rem;
+   text-align: center;
+   color:#0F5632; 
+}  
+
+ */
+ header{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+     align-items:center;
+     padding: 10px; 
+     background-color: aquamarine;
+     position: fixed;
+     top: 0;
+     width: 97%;
+ }
+
+   header a{ 
+     text-decoration:none;
+    color: black;
+ } 
+ header a:hover{
+  text-decoration: none;
+  color: black;
+}
+header a:hover{
+  color: blue;
+}
+ nav ul{ 
+    display: flex;
+    gap: 20px;
+    list-style: none;
+ }
+ nav ul li:hover{
+    background-color: red;
+    padding: 4px;
+    transition: .5s ease-in-out;
+    border-radius: 20px;
+}
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+ .icon{
+    display: none;
+ }
+ .home{
+  display: flex;
+  justify-content: space-between;
+ }
+ 
+.home div{
+  background-color: aqua;
+  text-align: center;
+  padding: 5px;
+  font-family:"dancing script",cursive;
+  font-weight: bold;
+}
+
+
+.home div:hover{
+  background-color: blueviolet;
+}
+
+.home-content{
+  font-family:"dancing script",cursive; 
+}
+.about{
+  margin-top: 5%;
+}
+.about h1{
+  text-align: center;
+}
+
+.contact{
+  margin-top: 15%;
+  align-items: center;
+  display: inline-block;
+  margin-left: 35%;
+}
+form{
+  border: 1px solid;
+  padding: 20px;
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+ 
+  @media(max-width:768px)
+  {
+    nav{
+      display: none;
+    }
+    .icon{
+      display: block;
+    }
+    .home{
+      flex-direction: column;
+      align-items: center;
+      gap: 30;
+      margin-top: 5%;
+
+    }
+    .home-content{
+      margin-top: 15%;
+    }
+  }
+  @media( max-widh:600px){
+    header{
+      width: 93%;
+    }
+    .contact{
+      margin-left: 3%;
+    }
+  }
+  
+    
+ 
+
